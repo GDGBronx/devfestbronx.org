@@ -63,47 +63,47 @@ $grid-breakpoint: $breakpoint--sm;
 // Widths
 // -------------------------------------------------------------------
 // Set up width the placeholders
-%whole                        { flex-basis: percentage(1/1); max-width: percentage(1/1); }
-%half                         { flex-basis: percentage(1/2); max-width: percentage(1/2); }
+%whole                        { flex-basis: percentage(1.00); max-width: percentage(1.00); }
+%half                         { flex-basis: percentage(0.50); max-width: percentage(0.50); }
 
-%one-third                    { flex-basis: percentage(1/3); max-width: percentage(1/3); }
-%two-thirds                   { flex-basis: percentage(2/3); max-width: percentage(2/3); }
+%one-third                    { flex-basis: percentage(0.33); max-width: percentage(0.33); }
+%two-thirds                   { flex-basis: percentage(0.66); max-width: percentage(0.66); }
 
-%one-fourth                   { flex-basis: percentage(1/4); max-width: percentage(1/4); }
-%two-fourths                  { flex-basis: percentage(2/4); max-width: percentage(2/4); }
-%three-fourths                { flex-basis: percentage(3/4); max-width: percentage(3/4); }
+%one-fourth                   { flex-basis: percentage(0.25); max-width: percentage(0.25); }
+%two-fourths                  { flex-basis: percentage(0.50); max-width: percentage(0.50); }
+%three-fourths                { flex-basis: percentage(0.75); max-width: percentage(0.75); }
 
-%one-fifth                    { flex-basis: percentage(1/5); max-width: percentage(1/5); }
-%two-fifths                   { flex-basis: percentage(2/5); max-width: percentage(2/5); }
-%three-fifths                 { flex-basis: percentage(3/5); max-width: percentage(3/5); }
-%four-fifths                  { flex-basis: percentage(4/5); max-width: percentage(4/5); }
+%one-fifth                    { flex-basis: percentage(0.20); max-width: percentage(0.20); }
+%two-fifths                   { flex-basis: percentage(0.40); max-width: percentage(0.40); }
+%three-fifths                 { flex-basis: percentage(0.60); max-width: percentage(0.60); }
+%four-fifths                  { flex-basis: percentage(0.80); max-width: percentage(0.80); }
 
 // Configure classes based on chosen number of columns
 // This will pump out classes like `span-3` which will make the unit
 // span 3 columns.
 @for $n from 1 through $total-number-columns {
     .span-#{$n} {
-        @if percentage($n/$total-number-columns) == percentage(1/1) {
+        @if percentage($n/$total-number-columns) == percentage(1.00) {
           @extend %whole;
-        } @else if percentage($n/$total-number-columns) == percentage(1/2) {
+        } @else if percentage($n/$total-number-columns) == percentage(0.50) {
           @extend %half;
-        } @else if percentage($n/$total-number-columns) == percentage(1/3) {
+        } @else if percentage($n/$total-number-columns) == percentage(0.33) {
           @extend %one-third;
-        } @else if percentage($n/$total-number-columns) == percentage(2/3) {
+        } @else if percentage($n/$total-number-columns) == percentage(0.66) {
           @extend %two-thirds;
-        } @else if percentage($n/$total-number-columns) == percentage(1/4) {
+        } @else if percentage($n/$total-number-columns) == percentage(0.25) {
           @extend %one-fourth;
-        } @else if percentage($n/$total-number-columns) == percentage(2/4) {
+        } @else if percentage($n/$total-number-columns) == percentage(0.50) {
           @extend %two-fourths;
-        } @else if percentage($n/$total-number-columns) == percentage(3/4) {
+        } @else if percentage($n/$total-number-columns) == percentage(0.75) {
           @extend %three-fourths;
-        } @else if percentage($n/$total-number-columns) == percentage(1/5) {
+        } @else if percentage($n/$total-number-columns) == percentage(0.20) {
           @extend %one-fifth;
-        } @else if percentage($n/$total-number-columns) == percentage(2/5) {
+        } @else if percentage($n/$total-number-columns) == percentage(0.40) {
           @extend %two-fifths;
-        } @else if percentage($n/$total-number-columns) == percentage(3/5) {
+        } @else if percentage($n/$total-number-columns) == percentage(0.60) {
           @extend %three-fifths;
-        } @else if percentage($n/$total-number-columns) == percentage(4/5) {
+        } @else if percentage($n/$total-number-columns) == percentage(0.80) {
           @extend %four-fifths;
         } @else {
           flex-basis: percentage($n/$total-number-columns);

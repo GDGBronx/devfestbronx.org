@@ -6,6 +6,11 @@
     "dev:ts": "tsc --watch",
     "dev:css": "sass --watch src/assets/css:_site",
     "dev:site": "npx eleventy --serve",
+    "build:site": "npx eleventy",
+    "build:css": "sass src/assets/css:_site --style compressed",
+    "build:ts": "tsc",
+    "clean": "rm -rf _site",
+    "build": "npm run clean && run-s build:*",
     "start": "run-p dev:ts dev:css dev:site",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
