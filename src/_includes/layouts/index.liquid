@@ -5,7 +5,7 @@
 <!-- Header -->
 <header class="align--center pt3 pb2">
     <div class="container">
-      <h1 class="mb3" title="{{ title }}"><img src="/img/logo.svg" alt="{{ title }}"></h1>
+      <h1 class="mb3" title="{{ title }}"><img src="/img/devfest-header.webp" alt="{{ altDevFest }}"></h1>
       <h2 class="mb3">{{ tagline }}</h2>
       <p class="mb1">{{ date }}</p>
       <p>{{ location }}</p>
@@ -21,19 +21,19 @@
 
         <!-- Info -->
         <section class="pt2 pb2">                    
-          <img class="mb3" src="/img/community.jpg" alt="{{ gdg }}">
+          <img class="mb3" src="/img/community.webp" alt="{{ altCommunity }}">
 
             <div class="grid-row">
                 <div class="grid-column span-one-third mt1">
-                    <img class="icon mb1" src="/img/content.svg">
+                  <img class="icon mb1" src="/img/content.svg" alt="{{ altContent }}">
                     <p>{{ eventContent }}</p>
                 </div>
                 <div class="grid-column span-one-third mt1">
-                    <img class="icon mb1" src="/img/workshops.svg">
+                    <img class="icon mb1" src="/img/workshops.svg" alt="{{ altWorkshops }}">
                     <p>{{ workshops }}</p>
                 </div>
                 <div class="grid-column span-one-third mt1">
-                    <img class="icon mb1" src="/img/networking.svg">
+                    <img class="icon mb1" src="/img/networking.svg" alt="{{ altNetworking }}">
                     <p>{{ networking }}</p>
                 </div>
             </div>
@@ -43,8 +43,8 @@
         <!-- Sponsors -->
         <section class="pt3 pb3 align--center">
           <h3 class="mb2">{{ sponsors }}</h3>
-          <img class="m1" src="/img/google.svg" alt="{{ google }}" style="height: 50px;">
-          <img class="m1" src="/img/lehman.svg" alt="{{ lehman }}" style="height: 45px;">
+          <img class="m1" src="/img/google.svg" alt="{{ altGoogle }}" style="height: 50px;">
+          <img class="m1" src="/img/lehman.svg" alt="{{ altLehman }}" style="height: 45px;">
         </section>
 
 
@@ -61,10 +61,10 @@
 <!-- Footer -->
 <footer class="mt2 pb3 align--center">
   <ul class="no-bullets list--inline mb0">
-    <li class="m1 block-on-mobile"><a href="{{ gdgUrl }}" class="link"><img class="icon" src="/img/gdg.svg" alt="{{ gdg }}"> {{ gdg }}</a></li>
-    <li class="m1 block-on-mobile"><a href="{{ meetupUrl }}" class="link"><img class="icon" src="/img/meetup.svg" alt="{{ meetup }}"> {{ meetup }}</a></li>
-    <li class="m1 block-on-mobile"><a href="{{ linkedinUrl }}" class="link"><img class="icon" src="/img/linkedin.svg" alt="{{ linkedin }}"> {{ linkedin }}</a></li>
-    <li class="m1 block-on-mobile"><a href="{{ youtubeUrl }}" class="link"><img class="icon" src="/img/youtube.svg" alt="{{ youtube }}"> {{ youtube }}</a></li>
+    <li class="m1 block-on-mobile"><a href="{{ gdgUrl }}" class="link"><img class="icon" src="/img/gdg.svg" alt="{{ altGDG }}"> {{ gdg }}</a></li>
+    <li class="m1 block-on-mobile"><a href="{{ meetupUrl }}" class="link"><img class="icon" src="/img/meetup.svg" alt="{{ altMeetup }}"> {{ meetup }}</a></li>
+    <li class="m1 block-on-mobile"><a href="{{ linkedinUrl }}" class="link"><img class="icon" src="/img/linkedin.svg" alt="{{ altLinkedIn }}"> {{ linkedin }}</a></li>
+    <li class="m1 block-on-mobile"><a href="{{ youtubeUrl }}" class="link"><img class="icon" src="/img/youtube.svg" alt="{{ altYouTube }}"> {{ youtube }}</a></li>
   </ul>
   <p class="mt1 small text--gray">Design by <a href="https://www.papayatemplates.com" class="link">Papaya</a>.</p>
 </footer>

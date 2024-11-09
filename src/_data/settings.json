@@ -25,7 +25,18 @@
     "lehman": "Lehman College",
     "eventContent": "Great selection of speakers and content for an unforgettable experience.",
     "workshops": "Bring your laptop and join us for hands-on workshops.",
-    "networking": "Meet our community of developers, designers, and tech enthusiasts."
+    "networking": "Meet our community of developers, designers, and tech enthusiasts.",
+    "altDevFest": "DevFest Bronx logo",
+    "altCommunity": "GDG Bronx community group picture",
+    "altContent": "Conference content selection and speakers",
+    "altWorkshops": "Conference workshops and hands-on labs",
+    "altNetworking": "Conference networking opportunities and community",
+    "altGoogle": "Google for Developers logo",
+    "altLehman": "Lehman College logo",
+    "altGDG": "GDG Bronx logo",
+    "altMeetup": "Meetup logo",
+    "altLinkedIn": "LinkedIn logo",
+    "altYouTube": "YouTube logo"
   }
   
 }
