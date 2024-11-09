@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content=" {{ settings.description }}">
+  <meta name="author" content=" {{ settings.author }}">
+  <meta name="keywords" content=" {{ settings.keywords }}">
+  <meta property="og:site_name" content="{{ settings.name }}" />
+  <meta property="og:site" content="{{ settings.site }}" /> 
+  <meta property="og:title" content="{{ title | default: settings.name }}"/> 
+  <meta property="og:description" content="{{ description | default: settings.description }}" /> 
+  <meta property="og:image" content="{{ settings.site }}{{ settings.logo }}" /> 
+  <meta property="og:url" content="{{ settings.site }}{{ page.url }}" /> 
+  <meta property="og:type" content="article" />
+  <link rel="stylesheet" type="text/css" href="/main.css">
+  <link rel="icon" href="{{ settings.favicon }}">
+  <title>{{ title }}</title>
+</head>
+<body>
+  <div class="page-border">
+    <div class="bg--white">
+      {% block content %}{% endblock %}
+    </div>
+  </div>
+  <script src="/main.js"></script>
+</body>
+</html>

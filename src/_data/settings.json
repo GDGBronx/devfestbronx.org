@@ -1,0 +1,31 @@
+{
+  "name": "DevFest 2024 - GDG Bronx",
+  "site": "devfestbronx.org",
+  "description": "The largest developer festival in the Bronx",
+  "author": "GDG Bronx",
+  "keywords": "bronx developer festival gdg google tech conference",
+  "rsvpUrl": "https://gdg.community.dev/events/details/google-gdg-bronx-presents-devfest-bronx-2024/",
+  "socialUrls": {
+    "meetup": "https://www.meetup.com/GDG-Bronx/",
+    "linkedin": "https://www.linkedin.com/groups/14356370/",
+    "gdg": "https://gdg.community.dev/gdg-bronx/",
+    "youtube": "https://www.youtube.com/channel/UCZ2LRweTOntsfmxoEK3EYCw"
+  },
+  "strings": {
+    "tagline": "The largest developer festival in the Bronx",
+    "date": "December 6th, 2024",
+    "location": "Lehman College, Bronx, New York",
+    "rsvp": "RSVP Now",
+    "sponsors": "Most generous supporters",
+    "linkedin": "LinkedIn",
+    "meetup": "Meetup",
+    "gdg": "GDG Bronx",
+    "youtube": "YouTube",
+    "google": "Google for Developers",
+    "lehman": "Lehman College",
+    "eventContent": "Great selection of speakers and content for an unforgettable experience.",
+    "workshops": "Bring your laptop and join us for hands-on workshops.",
+    "networking": "Meet our community of developers, designers, and tech enthusiasts."
+  }
+  
+}
