@@ -4,11 +4,11 @@ This repository is the source code for devfestbronx.org website.
 
 ## Technologies
 
-- HTML
-- Sass-y CSS
-- Eleventy
-- TypeScript (not yet)
-- JavaScript (not yet)
+- [HTML](https://html.spec.whatwg.org)
+- [Sass-y](https://sass-lang.com/)
+- [Eleventy](https://www.11ty.dev/)
+- [Liquid](https://shopify.github.io/liquid/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ## Support our community
 
