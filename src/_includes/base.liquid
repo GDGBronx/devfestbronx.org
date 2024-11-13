@@ -19,8 +19,12 @@
   <meta property="og:url" content="{{ settings.site }}" /> 
   <meta property="og:title" content="{{ title | default: settings.name }}"/> 
   <meta property="og:description" content="{{ description | default: settings.description }}" /> 
-  <meta property="og:image" content="{{ settings.ogImage }}" /> 
-
+  <meta property="og:logo" content="{{ settings.logo }}" />
+  <meta property="og:image" content="{{ settings.og.facebook }}" /> 
+  <meta property="og:image" content="{{ settings.og.instagram }}" /> 
+  <meta property="og:image" content="{{ settings.og.twitter }}" /> 
+  <meta property="og:image" content="{{ settings.og.linkedin }}" /> 
+        
 </head>
 <body>
   <div class="page-border">
