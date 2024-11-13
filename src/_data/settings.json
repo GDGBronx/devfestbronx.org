@@ -6,13 +6,19 @@
   "keywords": "bronx developer festival gdg google tech conference",
   "rsvpUrl": "https://www.meetup.com/gdg-bronx/events/304456205",
   "favicon": "https://devfestbronx.org/img/favicon.ico",
+  "logo": "https://devfestbronx.org/img/logo.png",
   "socialUrls": {
     "meetup": "https://www.meetup.com/GDG-Bronx/",
     "linkedin": "https://www.linkedin.com/groups/14356370/",
     "gdg": "https://gdg.community.dev/gdg-bronx/",
     "youtube": "https://www.youtube.com/channel/UCZ2LRweTOntsfmxoEK3EYCw"
   },
-  "ogImage": "https://devfestbronx.org/img/devfest-header-1200x630.webp",
+  "og": {
+    "facebook": "https://devfestbronx.org/img/devfest-header-1200x630.webp",
+    "instagram": "https://devfestbronx.org/img/devfest-header-1080x1080.webp",
+    "twitter": "https://devfestbronx.org/img/devfest-header-1500x500.webp",
+    "linkedin": "https://devfestbronx.org/img/devfest-header-1200x600.webp"
+  },
   "strings": {
     "tagline": "Innovate. Connect. Celebrate. The Bronx",
     "date": "December 6th, 2024",
