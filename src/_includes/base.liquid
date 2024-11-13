@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
+
+  <title>{{ title | default: settings.name }}</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="title" content=" {{ title | default: settings.name }}">
   <meta name="description" content=" {{ settings.description }}">
-  <meta name="author" content=" {{ settings.author }}">
   <meta name="keywords" content=" {{ settings.keywords }}">
-  <meta property="og:site_name" content="{{ settings.name }}" />
-  <meta property="og:site" content="{{ settings.site }}" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content=" {{ settings.author }}">
+  <link rel="canonical" href="{{ settings.site }}">
+  <link rel="icon" href="{{ settings.favicon }}">
+  <link rel="stylesheet" type="text/css" href="/main.css">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ settings.site }}" /> 
   <meta property="og:title" content="{{ title | default: settings.name }}"/> 
   <meta property="og:description" content="{{ description | default: settings.description }}" /> 
-  <meta property="og:image" content="{{ settings.site }}{{ settings.logo }}" /> 
-  <meta property="og:url" content="{{ settings.site }}{{ page.url }}" /> 
-  <meta property="og:type" content="article" />
-  <link rel="stylesheet" type="text/css" href="/main.css">
-  <link rel="icon" href="/img/favicon.ico">
-  <title>{{ title }}</title>
+  <meta property="og:image" content="{{ settings.ogImage }}" /> 
+
 </head>
 <body>
   <div class="page-border">

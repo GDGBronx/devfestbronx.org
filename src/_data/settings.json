@@ -1,16 +1,18 @@
 {
   "name": "DevFest Bronx",
-  "site": "devfestbronx.org",
+  "site": "https://devfestbronx.org",
   "description": "Don't miss DevFest Bronx, the leading tech conference in the Bronx, taking place December 6, 2024 at Lehman College.  This exciting event brings together students, developers, and tech enthusiasts to explore the latest innovations in AI, web, mobile, android, iOS, and social impact.  Connect with local talent, discover new opportunities, and be a part of the growing Bronx tech community. Visit our website to learn more and register today!",
   "author": "GDG Bronx",
   "keywords": "bronx developer festival gdg google tech conference",
   "rsvpUrl": "https://www.meetup.com/gdg-bronx/events/304456205",
+  "favicon": "https://devfestbronx.org/img/favicon.ico",
   "socialUrls": {
     "meetup": "https://www.meetup.com/GDG-Bronx/",
     "linkedin": "https://www.linkedin.com/groups/14356370/",
     "gdg": "https://gdg.community.dev/gdg-bronx/",
     "youtube": "https://www.youtube.com/channel/UCZ2LRweTOntsfmxoEK3EYCw"
   },
+  "ogImage": "https://devfestbronx.org/img/devfest-header-1200x630.webp",
   "strings": {
     "tagline": "Innovate. Connect. Celebrate. The Bronx",
     "date": "December 6th, 2024",
