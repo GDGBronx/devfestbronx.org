@@ -192,3 +192,9 @@ $grid-breakpoint: $breakpoint--sm;
 .offset-two-fifths            { @extend %m-two-fifths; }
 .offset-three-fifths          { @extend %m-three-fifths; }
 .offset-four-fifths           { @extend %m-four-fifths; }
+
+// alignments
+
+.justify-center {
+    justify-content: center;
+}

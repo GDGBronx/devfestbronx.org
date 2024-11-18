@@ -32,16 +32,16 @@
         <section class="pt2 pb2">                    
           <img class="mb3" src="/img/community.webp" alt="{{ altCommunity }}">
 
-            <div class="grid-row">
-                <div class="grid-column span-one-third mt1">
+            <div class="grid-row justify-center">
+                <div class="grid-column mt1">
                   <img class="icon mb1" src="/img/content.svg" alt="{{ altContent }}">
                     <p>{{ eventContent }}</p>
                 </div>
-                <div class="grid-column span-one-third mt1">
+                <div class="grid-column mt1">
                     <img class="icon mb1" src="/img/workshops.svg" alt="{{ altWorkshops }}">
                     <p>{{ workshops }}</p>
                 </div>
-                <div class="grid-column span-one-third mt1">
+                <div class="grid-column mt1">
                     <img class="icon mb1" src="/img/networking.svg" alt="{{ altNetworking }}">
                     <p>{{ networking }}</p>
                 </div>
@@ -53,20 +53,20 @@
         {% assign speakersList = settings.speakers %}
         <section id="speakers" class="pt3 pb3 align--center">
             <h3 class="mb1">{{ speakers }}</h3>
-            <div class="grid-row">
+            <div class="grid-row justify-center">
               {% for speaker in speakersList %}
-                <div class="grid-column span-4 mt2">
-                  <img class="mb1" src="{{ speaker.photo }}" alt="{{ speaker.name }}">
+                <div class="grid-column-center mt2">
+                  <img class="m1" src="{{ speaker.photo }}" width="210px" alt="{{ altSpeaker }}">
                   <p class="small">{{ speaker.name }}</p>
                   <ul class="no-bullets list--inline">
                     {% if speaker.social.website %}
                       <li class="m1"><a href="{{ speaker.social.website }}" target="_blank" class="link"><img class="icon" src="/img/globe-bw.png" alt="{{ altWebsite }}"></a></li>
                     {% endif %}
                     {% if speaker.social.linkedin %}
-                      <li class="m1"><a href="{{ speaker.social.linkedin }}" target="_blank" class="link"><img class="icon" src="/img/linkedin-bw.png" alt="{{ altWebsite }}"></a></li>
+                      <li class="m1"><a href="{{ speaker.social.linkedin }}" target="_blank" class="link"><img class="icon" src="/img/linkedin-bw.png" alt="{{ altLinkedIn }}"></a></li>
                     {% endif %}
                     {% if speaker.social.youtube %}
-                      <li class="m1"><a href="{{ speaker.social.youtube }}" target="_blank" class="link"><img class="icon" src="/img/youtube-bw.png" alt="{{ altTwitter }}"></a></li>
+                      <li class="m1"><a href="{{ speaker.social.youtube }}" target="_blank" class="link"><img class="icon" src="/img/youtube-bw.png" alt="{{ altYouTube }}"></a></li>
                     {% endif %}
                   </ul>
                 </div>
@@ -81,7 +81,7 @@
             <div class="grid-row">
               {% for talk in talksList %}
                 <div class="grid-column align--left span-whole mt2">
-                  <h4>{{ talk.title }}</h4>
+                  <p class="bold pb1">{{ talk.title }}</p>
                   <p class="small pb1">{{ talk.speaker }}</p>
                   <p class="regular">{{ talk.description }}</p>
                 </div>
@@ -96,8 +96,8 @@
           <div class="grid-row">
             {% for session in _agenda %}
               <div class="grid-column span-12 mt2">
-                <h4>{{ session.time }}</h4>
-                <p class="pb1 bold">{{ session.title }}</p>
+                <p class="bold pb1">{{ session.time }}</p>
+                <p class="bold pb1">{{ session.title }}</p>
                 <p class="small pb1">{{ session.speaker }}</p>
                 <p class="small">{{ session.room }}</p>
               </div>
@@ -111,7 +111,7 @@
           <h3>{{ venueName }}</h3>
           <h5>{{ venueRooms }}</h5>
           <h4>{{ venueAddress }}</h4>
-          <div class="grid-row">
+          <div class="grid-row justify-center">
               <div class="grid-column">
                 <img class="mb1" src="/img/lehman-entrance.webp" alt="{{ venueName }}">
               </div>
@@ -122,7 +122,7 @@
               </div>
           </div>
           <h3 class="mt2 mb3">{{ gettingHere  }}</h3>
-          <div class="grid-row">
+          <div class="grid-row justify-center">
               <div class="grid-column">
                 <h4>{{ subway }}</h4>
                 <p class="align--left mb2">{{ venueSubway }}</p>

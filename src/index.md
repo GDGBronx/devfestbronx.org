@@ -33,6 +33,8 @@ eleventyComputed:
   altMeetup: "{{ settings.strings.altMeetup }}"
   altLinkedIn: "{{ settings.strings.altLinkedIn }}"
   altYouTube: "{{ settings.strings.altYouTube }}"
+  altWebsite: "{{ settings.strings.altWebsite }}"
+  altSpeaker: "{{ settings.strings.altSpeaker }}"
   speakers: "{{ settings.strings.speakers }}"
   talks: "{{ settings.strings.talks }}"
   agenda: "{{ settings.strings.agenda }}"
