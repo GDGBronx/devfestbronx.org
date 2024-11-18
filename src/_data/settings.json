@@ -70,7 +70,7 @@
       "photo": "/img/speakers/brendan-collins.jpg",
       "bio": "Brendan Collins is the Executive Director of the Tech Talent Pipeline (TTP), which is the city's tech industry partnerships team run out of the Mayor's office. TTP bridges the gap among City government, employers, and educators to support both the city’s growing tech industry and tech workforce. Before joining the Mayor's Office, Brendan ran Google's public higher education outreach and recruiting programs.",
       "social": {
-        "website": "https://www.linkedin.com/in/brendancollinsnyc"
+        "linkedin": "https://www.linkedin.com/in/brendancollinsnyc"
       }
     },
     {
@@ -279,6 +279,17 @@
       "title": "Doors Close"
     }
   ],
+  "venue": {
+    "name": "Lehman College - Gillet Hall (Gate 5)",
+    "address": "2920 Goulden Avenue, Bronx, NY 10468",
+    "history1": "Lehman College is situated in the northwest Bronx adjacent to the Jerome Park Reservoir on a beautiful 37-acre campus comprised of Collegiate Gothic and Modern Architecture.",
+    "history2": "We are excited to host DevFest Bronx 2023 in Gillet Hall, where the Computer Science Department resides.",
+    "history3": "Lehman College is the City University of New York's only four-year college in the Bronx, serving the borough and surrounding region as an intellectual, economic, and cultural center. Lehman provides undergraduate and graduate studies in the liberal arts and sciences and professional education within a dynamic research environment. With a diverse student body of more than 14,000 students and more than 81,000 alumni, Lehman offers more than 90 undergraduate and graduate programs. Ranked as having the fourth highest mobility rate in the nation by the National Bureau of Economic Research and the Equality of Opportunity Project, Lehman is a proud catalyst for economic and social mobility for its students, almost half of whom are first generation college students.",
+    "subway": "Take the 4  or the B, D train to Bedford Park Blvd Walk westbound on Bedford Park Blvd toward Goulden Avenue - Turn Left on Goulden Avenue - Enter the campus through the Campus Police Security Gate #5 - Turn Left and Enter Gillet Hall", 
+    "bus": "Take the Bx 22 to Goulden Ave / Bedford Park Blvd. Walk south on Goulden Avenue - Enter the campus through the Campus Police Security Gate #5 - Turn Left and Enter Gillet Hall",
+    "parking": "There is paid street parking available. GPS to 2920 Goulden Ave Bronx, NY 10468",
+    "rooms": "GI 024 - Downstairs Amphitheatre and GI 226 - Upstairs Auditorium"
+  },
   "strings": {
     "tagline": "Innovate. Connect. Celebrate. The Bronx",
     "date": "December 6th, 2024",
@@ -297,10 +308,16 @@
     "talksMenu": "Talks",
     "speakersMenu": "Speakers",
     "agenda": "Agenda",
+    "venue": "Venue",
     "time": "Time",
     "sessionTitle": "Session Title",
     "speaker": "Speaker",
     "room": "Room",
+    "subway": "Subway",
+    "bus": "Bus",
+    "parking": "Parking",
+    "rooms": "Rooms",
+    "gettingHere": "Getting Here",
     "eventContent": "Great selection of speakers and content for an unforgettable experience.",
     "workshops": "Bring your laptop and join us for hands-on workshops.",
     "networking": "Meet our community of developers, designers, and tech enthusiasts.",

@@ -8,6 +8,7 @@
   <li><a href="#speakers">{{ speakersMenu }}</a></li>
   <li><a href="#talks">{{ talksMenu }}</a></li>
   <li><a href="#agenda">{{ agenda }}</a></li>
+  <li><a href="#venue">{{ venue }}</a></li>
 </ul>
 
 <!-- Header -->
@@ -91,16 +92,49 @@
         <!-- Agenda -->
         {% assign _agenda = settings.agenda %}
         <section id="agenda" class="pt3 pb3 align--center">
-          <h3 class="mb2">{{ agenda }}</h3>
+          <h3 class="mb1">{{ agenda }}</h3>
           <div class="grid-row">
             {% for session in _agenda %}
-              <div class="grid-column span-4 mt2">
+              <div class="grid-column span-12 mt2">
                 <h4>{{ session.time }}</h4>
-                <p class="small pb1">{{ session.title }}</p>
+                <p class="pb1 bold">{{ session.title }}</p>
                 <p class="small pb1">{{ session.speaker }}</p>
                 <p class="small">{{ session.room }}</p>
               </div>
             {% endfor %}
+          </div>
+        </section>
+
+        <!-- Venue -->
+        <section id="venue" class="pt3 pb3 align--center">
+          <h3 class="mb2">{{ venue }}</h3>
+          <h3>{{ venueName }}</h3>
+          <h5>{{ venueRooms }}</h5>
+          <h4>{{ venueAddress }}</h4>
+          <div class="grid-row">
+              <div class="grid-column span-6 mt2">
+                <img class="mb1" src="/img/lehman-entrance.webp" alt="{{ venueName }}">
+              </div>
+              <div class="grid-column span-6 mt2">
+                <p class="small align--left mb1">{{ venueHistory1 }}</p>
+                <p class="small align--left mb1">{{ venueHistory2 }}</p>
+                <p class="small align--left mb1">{{ venueHistory3 }}</p>
+              </div>
+          </div>
+          <h3 class="mt2 mb1">{{ gettingHere  }}</h3>
+          <div class="grid-row">
+              <div class="grid-column span-6 mt2">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6033.803983467942!2d-73.894829!3d40.874025!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f39c771c5257%3A0xb29719fa25bef236!2s2920%20Goulden%20Ave%2C%20Bronx%2C%20NY%2010468!5e0!3m2!1sen!2sus!4v1731965005542!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+              </div>
+              <div class="grid-column span-6 mt2">
+                <h5>{{ subway }}</h5>
+                <p class="small align--left mb1">{{ venueSubway }}</p>
+                <h5>{{ bus }}</h5>
+                <p class="small align--left mb1">{{ venueBus }}</p>
+                <h5>{{ parking }}</h5>
+                <p class="small align--left mb1">{{ venueParking }}</p>
+              </div>
+          </div>
         </section>
 
         <!-- Sponsors -->
@@ -109,7 +143,6 @@
           <img class="m1" src="/img/google.svg" alt="{{ altGoogle }}" style="height: 50px;">
           <img class="m1" src="/img/lehman.svg" alt="{{ altLehman }}" style="height: 45px;">
         </section>
-
 
         <!-- CTA -->
         <section class="align--center pt3 pb3">
