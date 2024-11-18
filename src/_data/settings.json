@@ -19,6 +19,266 @@
     "twitter": "https://devfestbronx.org/img/devfest-header-1500x500.webp",
     "linkedin": "https://devfestbronx.org/img/devfest-header-1200x600.webp"
   },
+  "speakers": [
+    {
+      "name": "Albina Krasykova",
+      "title": "AI Engineer",
+      "photo": "/img/speakers/albina-krasykova.jpg",
+      "bio": "Albina is a Lehman College alumna with a CS major. She is passionate about ML and AI research, particularly in applications such as health tech, accessible education, urban systems, and NLP. Some of her experience includes CSRMP at Google, Breakthrough Tech AI @ Cornell Tech, ML Engineer @ ASAPP, Recommendation System participant in a Google Kaggle competition, Computer Vision Researcher @ Cornell Tech, Data Researcher @ MTA and SWE @ Cake AI. Fun fact, Albina has been swimming for 18 years and coaching for 3 years. ",
+      "social": {
+        "website": "https://medium.com/@albinakrasykova",
+        "linkedin": "https://www.linkedin.com/in/albinakrasykova/"
+      }
+    },
+    {
+      "name": "Allen Firstenberg",
+      "title": "Google Developer Expert",
+      "photo": "/img/speakers/allen-firstenberg.jpg",
+      "bio": "By day, Allen is a Senior Project Engineer at http://spiders.com/ where he’s been instrumental in creating websites and mobile apps for companies and organizations, ranging from the American Booksellers Association to the National Science Foundation. By night he creates tools, software, and tutorials to help people share their stories and improve their digital lives. You'll find him contributing to the LangChainJS open source project, as one of the two hosts of the \"Two Voice Devs\" podcast, and co-author of the O’Reilly book \"Designing and Developing for Google Glass\". He is a Google Developer Expert for Machine Learning, Google Workspace, and the Google Assistant and has been known to occasionally wear light blue shirts.",
+      "social": {
+        "website": "https://prisoner.com/",
+        "linkedin": "https://www.linkedin.com/in/allen-s-firstenberg-950130",
+        "youtube": "https://youtube.com/@TwoVoiceDevs"
+      }
+    },
+    {
+      "name": "Atuoha Anthony",
+      "title": "Mobile Software Engineer",
+      "photo": "/img/speakers/atuoha-anthony.jpg",
+      "bio": "Mobile Software Engineer specializing in Flutter/Dart, Kotlin (Jetpack Compose), & Swift/SwiftUI, with a comprehensive background in web technologies. Skilled in designing, developing, and deploying software for Android, iOS, Web, and other platforms. Adept at collaborating effectively with cross-functional teams to create high-quality, scalable products.",
+      "social": {
+        "website": "https://atuoha.github.io",
+        "linkedin": "https://linkedin.com/in/atuoha-anthony"
+      }
+    },
+    {
+      "name": "Roman Jaquez",
+      "title": "Google Developer Expert in Flutter",
+      "company": "GDG Lawrence",
+      "photo": "/img/speakers/roman-jaquez.jpg",
+      "bio": "Roman Jaquez is a Google Developer Expert in Flutter as well as a Google Certified Cloud Architect who loves sharing his passion for Flutter with the wider developer community. He is also lead organizer at GDG Lawrence with 10+ years of experience as a software engineer. He enjoys spreading the word about best practices in the industry ranging from mobile, web and cloud.",
+      "social": {
+        "website": "https://romanjustcodes.web.app/#/home",
+        "linkedin": "https://www.linkedin.com/in/roman-jaquez-8941a424/",
+        "youtube": "https://www.youtube.com/@romanjustcodes"
+      }
+    },
+    {
+      "name": "Brendan Collins",
+      "title": "Executive Director",
+      "company": "NYC Tech Talent Pipeline",
+      "photo": "/img/speakers/brendan-collins.jpg",
+      "bio": "Brendan Collins is the Executive Director of the Tech Talent Pipeline (TTP), which is the city's tech industry partnerships team run out of the Mayor's office. TTP bridges the gap among City government, employers, and educators to support both the city’s growing tech industry and tech workforce. Before joining the Mayor's Office, Brendan ran Google's public higher education outreach and recruiting programs.",
+      "social": {
+        "website": "https://www.linkedin.com/in/brendancollinsnyc"
+      }
+    },
+    {
+      "name": "Christelle Scharff",
+      "title": "Professor of Computer Science, Associate Dean, and Co-director of the AI Lab",
+      "company": "Pace University",
+      "photo": "/img/speakers/christelle-scharff.jpg",
+      "bio": "Dr. Christelle Scharff is a Professor of Computer Science, Associate Dean, and Co-director of the AI Lab at Pace University in NY. She has a Ph.D. in Symbolic Artificial Intelligence (Theorem Proving and Automated Deduction) from INRIA, the French National Institute for Research in Digital Science and Technology. She published more than 30 papers in artificial intelligence, mobile for social change and global software engineering. She was awarded grants from NSF, IBM, Microsoft, and Google. She taught in France, Senegal, Benin, Cambodia and Vietnam. She was a US Fulbright scholar in Senegal in 2012 and 2019.",
+      "social": {
+        "website": "https://www.pace.edu/seidenberg/sections/meet-the-faculty/faculty-profile/cscharff",
+        "linkedin": "https://www.linkedin.com/in/christelle-scharff-15b562/"
+      }
+    },
+    {
+      "name": "Alexandra Feldhausen",
+      "title": "Director of Career Development",
+      "company": "All Tech Is Human",
+      "photo": "/img/speakers/alexandra-feldhausen.jpg",
+      "bio": "Ali Feldhausen is the Director of Career Development at All Tech is Human, where she oversees the ATIH Careers vertical. Before joining ATIH, Ali was the Director of Insights and Engagement at the NYC Mayor’s Office of Talent and Workforce Development’s Tech Talent Pipeline (TTP). While at TTP, she was responsible for overseeing the CUNY 2X Tech Initiative, maintaining partnerships across the tech ecosystem with employers and education providers, and leading the CUNY Computer Science Career Development Council, a consortium of career development specialists from across CUNY.",
+      "social": {
+        "website": "https://alltechishuman.org/",
+        "linkedin": "https://www.linkedin.com/in/alexandra-feldhausen/"
+      }
+    },
+    {
+      "name": "Hessvacio Hassan",
+      "title": "Creative Lead",
+      "company": "Made in Brooklyn Games",
+      "photo": "/img/speakers/hessvacio-hassan.jpg",
+      "bio": "Hessvacio Hassan is the creator and lead developer of the Webby-nominated VR series, Museum Multiverse, designed for HTC, Pico, and Oculus. His previous release, Don't Look Away VR, has been downloaded over 250,000 times. Hessvacio is active in New York City’s indie game community, creating and supporting local projects that span from arcade cabinet games to messenger-based games promoting Facebook's platform.",
+      "social": {
+        "website": "https://hessvacio.com/",
+        "linkedin": "https://www.linkedin.com/in/hessvacio/",
+        "youtube": "https://www.youtube.com/@madeinbrooklyngames"
+      }
+    },
+    {
+      "name": "Joel Guerrero",
+      "title": "UI/UX Designer",
+      "company": "Simons Foundation",
+      "photo": "/img/speakers/joel-guerrero.jpg",
+      "bio": "Joel is a mid-level UI/UX Designer with six years of experience crafting digital experiences for early- and mid-stage startups. He currently works as a UI/UX Designer at the Simons Foundation, an organization dedicated to advancing the frontiers of basic science and mathematics. In his role, Joel collaborates with the web experience team to design and conduct research for various foundation initiatives, including neuroscience publications like Quanta Magazine and The Transmitter.",
+      "social": {
+        "website": "https://my-portfolio-825516.webflow.io",
+        "linkedin": "https://www.linkedin.com/in/joelxguerrero/"
+      }
+    },
+    {
+      "name": "Kevin Galligan",
+      "title": "Technology Partner",
+      "company": "Touchlab",
+      "photo": "/img/speakers/kevin-galligan.jpg",
+      "bio": "Technology Partner at Touchlab. Kevin started with Android development before there were Android phones, and has been building native mobile applications exclusively since 2010. Kevin and Touchlab have been focused on KMP since the platform's announcement, and have contributed extensively to the ecosystem's libraries and community.",
+      "social": {
+        "website": "https://touchlab.co/",
+        "linkedin": "https://www.linkedin.com/in/kpgalligan/",
+        "youtube": "https://www.youtube.com/@Touchlab"
+      }
+    }
+  ],
+  "talks": [
+    {
+      "title": "Succeed in the age of AI",
+      "description": "The session would be focused on exploring strategies for thriving in the fast-paced AI world, including learning quickly, adapting, asking the right questions while adding an emphasis taking time for breaks, living your life and maintaining good health.",
+      "speaker": "Albina Krasykova"
+    },
+    {
+      "title": "Gemini: One Year Later",
+      "description": "One year ago, on this very stage, we got a first glimpse of Google Gemini and what it could do that no other Large Language Model could. Now, one year later, let's see how far Gemini has come - and what it means for where we, as developers, are going next.",
+      "speaker": "Allen Firstenberg"
+    },
+    {
+      "title": "Flutter for Web: Expanding Beyond Mobile",
+      "description": "Explore Flutter’s versatility as we expand beyond mobile to the web. Learn how to build responsive, high-performance web applications using Flutter, with insights into best practices, deployment strategies, and real-world use cases. This session is perfect for developers looking to broaden their Flutter skills into web development.",
+      "speaker": "Atuoha Anthony"
+    },
+    {
+      "title": "Beyond Chatbots:  Unlocking Gemini's  Potential through Flutter",
+      "description": "We'll explore how Gemini empowers developers to craft intuitive, conversational interfaces, enabling seamless interactions and effortless communication between users and your app.",
+      "speaker": "Roman Jaquez"
+    },
+    {
+      "title": "How to Navigate the NYC Tech Job Market",
+      "description": "I'll walk through the steps for students how to best navigate their career opportunities as a tech worker in NYC.",
+      "speaker": "Brendan Collins"
+    },
+    {
+      "title": "Unlocking the Power of Kotlin for Android Development",
+      "description": "This talk will provide an overview of the Kotlin programming language. It presents the full potential of Kotlin for Android development.",
+      "speaker": "Christelle Scharff"
+    },
+    {
+      "title": "Responsible Tech Careers",
+      "description": "During this session, students will learn more about the diverse pathways to careers in Responsible Tech.",
+      "speaker": "Alexandra Feldhausen"
+    },
+    {
+      "title": "My XR Playground",
+      "description": "I’ll share my journey in VR and AR development, starting with no computer science degree. By exploring my path from self-learning to creating immersive experiences, I hope to inspire others interested in VR and AR to see that a formal tech background isn’t required to make meaningful progress in this field.",
+      "speaker": "Hessvacio Hassan"
+    },
+    {
+      "title": "Designing for all - Accessibility in the modern digital age",
+      "description": "This session explores how accessible design supports people with disabilities, the assistive technologies they rely on, and why prioritizing it benefits everyone. Learn why practical strategies like using proper color contrast, the importance of semantic headers, and using alt text for images can create inclusive interfaces that empower all users, fostering social equity in the process. Gain insights into how designing with accessibility in mind meets diverse needs and strengthens user engagement and satisfaction.",
+      "speaker": "Joel Guerrero"
+    },
+    {
+      "title": "The Future of Android, Kotlin, and Everything",
+      "description": "For many mobile products today, native is not the likely choice. Some form of cross-platform is used. Kotlin Multiplatform and Compose Multiplatform removes the barrier between the two paths, and with the community's help, can be the default choice for mobile development.",
+      "speaker": "Kevin Galligan"
+    }
+  ],
+  "agenda": [
+    {
+      "time": "12:30 PM",
+      "title": "Doors Open",
+      "room": "Downstairs Amphitheatre (GI 024)"
+    },
+    {
+      "time": "1:00 PM - 1:15 PM",
+      "title": "Welcome",
+      "room": "Downstairs Amphitheatre (GI 024)"
+    },
+    {
+      "time": "1:15 PM - 1:45 PM",
+      "title": "Keynote - Gemini: One Year Later",
+      "speaker": "Allen Firstenberg",
+      "room": "Downstairs Amphitheatre (GI 024)"
+    },
+    {
+      "time": "1:45 PM - 1:50 PM",
+      "title": "Doors to 2nd Track Open",
+      "room": "Upstairs Auditorium (GI 226)"
+    },
+    {
+      "time": "1:50 PM - 2:20 PM",
+      "title": "Unlocking the Power of Kotlin for Android Development",
+      "speaker": "Christelle Scharff",
+      "room": "Downstairs Amphitheatre (GI 024)"
+    },
+    {
+      "time": "2:00 PM - 2:20 PM",
+      "title": "A Bit of My Mind",
+      "speaker": "Hendrix Tavarez",
+      "room": "Upstairs Auditorium (GI 226)"
+    },
+    {
+      "time": "2:20 PM - 2:50 PM",
+      "title": "Flutter for Web: Expanding Beyond Mobile",
+      "speaker": "Atuoha Anthony",
+      "room": "Downstairs Amphitheatre (GI 024)"
+    },
+    {
+      "time": "2:30 PM - 2:50 PM",
+      "title": "How to Navigate the NYC Tech Job Market",
+      "speaker": "Brendan Collins",
+      "room": "Upstairs Auditorium (GI 226)"
+    },
+    {
+      "time": "2:50 PM - 3:00 PM",
+      "title": "Coffee and Networking Break"
+    },
+    {
+      "time": "3:00 PM - 3:20 PM",
+      "title": "Designing for all - Accessibility in the modern digital age",
+      "speaker": "Joel Guerrero",
+      "room": "Downstairs Amphitheatre (GI 024)"
+    },
+    {
+      "time": "3:00 PM - 3:20 PM",
+      "title": "My XR Playground",
+      "speaker": "Hessvacio Hassan",
+      "room": "Upstairs Auditorium (GI 226)"
+    },
+    {
+      "time": "3:20 PM - 3:50 PM",
+      "title": "Beyond Chatbots:  Unlocking Gemini's  Potential through Flutter",
+      "speaker": "Roman Jaquez",
+      "room": "Downstairs Amphitheatre (GI 024)"
+    },
+    {
+      "time": "3:20 PM - 3:40 PM",
+      "title": "Succeed in the age of AI",
+      "speaker": "Albina Krasykova",
+      "room": "Upstairs Auditorium (GI 226)"
+    },
+    {
+      "time": "4:00 PM - 4:20 PM",
+      "title": "Responsible Tech Careers",
+      "speaker": "Alexandra Feldhausen",
+      "room": "Downstairs Amphitheatre (GI 024)"
+    },
+    {
+      "time": "4:30 PM - 5:00 PM",
+      "title": "The Future of Android, Kotlin, and Everything",
+      "speaker": "Kevin Galligan",
+      "room": "Downstairs Amphitheatre (GI 024)"
+    },
+    {
+      "time": "5:00 PM - 5:40 PM",
+      "title": "Closing Remarks, Raffles",
+      "room": "Downstairs Amphitheatre (GI 024)"
+    },
+    {
+      "time": "6:00 PM",
+      "title": "Doors Close"
+    }
+  ],
   "strings": {
     "tagline": "Innovate. Connect. Celebrate. The Bronx",
     "date": "December 6th, 2024",
@@ -31,6 +291,16 @@
     "youtube": "YouTube",
     "google": "Google for Developers",
     "lehman": "Lehman College",
+    "speakers": "Meet our speakers",
+    "talks": "Conference talks",
+    "homeMenu": "Home",
+    "talksMenu": "Talks",
+    "speakersMenu": "Speakers",
+    "agenda": "Agenda",
+    "time": "Time",
+    "sessionTitle": "Session Title",
+    "speaker": "Speaker",
+    "room": "Room",
     "eventContent": "Great selection of speakers and content for an unforgettable experience.",
     "workshops": "Bring your laptop and join us for hands-on workshops.",
     "networking": "Meet our community of developers, designers, and tech enthusiasts.",
@@ -46,5 +316,4 @@
     "altLinkedIn": "LinkedIn logo",
     "altYouTube": "YouTube logo"
   }
-  
 }

@@ -2,6 +2,14 @@
 
 {% block content %}
 
+<!-- Navigation -->
+<ul class="navbar">
+  <li><a href="#home">{{ homeMenu }}</a></li>
+  <li><a href="#speakers">{{ speakersMenu }}</a></li>
+  <li><a href="#talks">{{ talksMenu }}</a></li>
+  <li><a href="#agenda">{{ agenda }}</a></li>
+</ul>
+
 <!-- Header -->
 <header class="align--center pt3 pb2">
     <div class="container">
@@ -40,6 +48,61 @@
              
         </section>
 
+        <!-- Speakers -->
+        {% assign speakersList = settings.speakers %}
+        <section id="speakers" class="pt3 pb3 align--center">
+            <h3 class="mb1">{{ speakers }}</h3>
+            <div class="grid-row">
+              {% for speaker in speakersList %}
+                <div class="grid-column span-4 mt2">
+                  <img class="mb1" src="{{ speaker.photo }}" alt="{{ speaker.name }}">
+                  <p class="small">{{ speaker.name }}</p>
+                  <ul class="no-bullets list--inline">
+                    {% if speaker.social.website %}
+                      <li class="m1"><a href="{{ speaker.social.website }}" target="_blank" class="link"><img class="icon" src="/img/globe-bw.png" alt="{{ altWebsite }}"></a></li>
+                    {% endif %}
+                    {% if speaker.social.linkedin %}
+                      <li class="m1"><a href="{{ speaker.social.linkedin }}" target="_blank" class="link"><img class="icon" src="/img/linkedin-bw.png" alt="{{ altWebsite }}"></a></li>
+                    {% endif %}
+                    {% if speaker.social.youtube %}
+                      <li class="m1"><a href="{{ speaker.social.youtube }}" target="_blank" class="link"><img class="icon" src="/img/youtube-bw.png" alt="{{ altTwitter }}"></a></li>
+                    {% endif %}
+                  </ul>
+                </div>
+              {% endfor %}
+            </div>
+        </section>
+
+        <!-- Talks -->
+        {% assign talksList = settings.talks %}
+        <section id="talks" class="pt3 pb3 align--center">
+            <h3 class="mb1">{{ talks }}</h3>
+            <div class="grid-row">
+              {% for talk in talksList %}
+                <div class="grid-column align--left span-whole mt2">
+                  <h4>{{ talk.title }}</h4>
+                  <p class="small pb1">{{ talk.speaker }}</p>
+                  <p class="regular">{{ talk.description }}</p>
+                </div>
+              {% endfor %}
+            </div>
+        </section>
+
+        <!-- Agenda -->
+        {% assign _agenda = settings.agenda %}
+        <section id="agenda" class="pt3 pb3 align--center">
+          <h3 class="mb2">{{ agenda }}</h3>
+          <div class="grid-row">
+            {% for session in _agenda %}
+              <div class="grid-column span-4 mt2">
+                <h4>{{ session.time }}</h4>
+                <p class="small pb1">{{ session.title }}</p>
+                <p class="small pb1">{{ session.speaker }}</p>
+                <p class="small">{{ session.room }}</p>
+              </div>
+            {% endfor %}
+        </section>
+
         <!-- Sponsors -->
         <section class="pt3 pb3 align--center">
           <h3 class="mb2">{{ sponsors }}</h3>
@@ -61,10 +124,10 @@
 <!-- Footer -->
 <footer class="mt2 pb3 align--center">
   <ul class="no-bullets list--inline mb0">
-    <li class="m1 block-on-mobile"><a href="{{ gdgUrl }}" class="link"><img class="icon" src="/img/gdg.svg" alt="{{ altGDG }}"> {{ gdg }}</a></li>
-    <li class="m1 block-on-mobile"><a href="{{ meetupUrl }}" class="link"><img class="icon" src="/img/meetup.svg" alt="{{ altMeetup }}"> {{ meetup }}</a></li>
-    <li class="m1 block-on-mobile"><a href="{{ linkedinUrl }}" class="link"><img class="icon" src="/img/linkedin.svg" alt="{{ altLinkedIn }}"> {{ linkedin }}</a></li>
-    <li class="m1 block-on-mobile"><a href="{{ youtubeUrl }}" class="link"><img class="icon" src="/img/youtube.svg" alt="{{ altYouTube }}"> {{ youtube }}</a></li>
+    <li class="m1 block-on-mobile"><a href="{{ gdgUrl }}" class="link"><img class="icon" src="/img/gdg.png" alt="{{ altGDG }}"> {{ gdg }}</a></li>
+    <li class="m1 block-on-mobile"><a href="{{ meetupUrl }}" class="link"><img class="icon" src="/img/meetup.png" alt="{{ altMeetup }}"> {{ meetup }}</a></li>
+    <li class="m1 block-on-mobile"><a href="{{ linkedinUrl }}" class="link"><img class="icon" src="/img/linkedin.png" alt="{{ altLinkedIn }}"> {{ linkedin }}</a></li>
+    <li class="m1 block-on-mobile"><a href="{{ youtubeUrl }}" class="link"><img class="icon" src="/img/youtube.png" alt="{{ altYouTube }}"> {{ youtube }}</a></li>
   </ul>
   <p class="mt1 small text--gray">Design by <a href="https://www.papayatemplates.com" class="link">Papaya</a>.</p>
 </footer>
