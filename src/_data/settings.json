@@ -288,7 +288,8 @@
     "subway": "Take the 4  or the B, D train to Bedford Park Blvd Walk westbound on Bedford Park Blvd toward Goulden Avenue - Turn Left on Goulden Avenue - Enter the campus through the Campus Police Security Gate #5 - Turn Left and Enter Gillet Hall", 
     "bus": "Take the Bx 22 to Goulden Ave / Bedford Park Blvd. Walk south on Goulden Avenue - Enter the campus through the Campus Police Security Gate #5 - Turn Left and Enter Gillet Hall",
     "parking": "There is paid street parking available.", 
-    "rooms": "GI 024 - Downstairs Amphitheatre and GI 226 - Upstairs Auditorium"
+    "room1": "GI 024 - Downstairs Amphitheatre",
+    "room2": "GI 226 - Upstairs Auditorium"
   },
   "strings": {
     "tagline": "Innovate. Connect. Celebrate. The Bronx",
