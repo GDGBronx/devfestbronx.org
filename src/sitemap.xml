@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://devfestbronx.org</loc>
-    <lastmod>2024-11-09</lastmod>
+    <lastmod>2024-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://devfestbronx.org/#speakers</loc>
+    <lastmod>2024-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://devfestbronx.org/#talks</loc>
+    <lastmod>2024-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://devfestbronx.org/#agenda</loc>
+    <lastmod>2024-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://devfestbronx.org/#venue</loc>
+    <lastmod>2024-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://devfestbronx.org/index.html</loc>
+    <lastmod>2024-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://devfestbronx.org/index.html#speakers</loc>
+    <lastmod>2024-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://devfestbronx.org/index.html#talks</loc>
+    <lastmod>2024-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://devfestbronx.org/index.html#agenda</loc>
+    <lastmod>2024-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://devfestbronx.org/index.html#venue</loc>
+    <lastmod>2024-11-20</lastmod>
   </url>
 </urlset>
