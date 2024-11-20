@@ -1,0 +1,32 @@
+// Navigation styles
+// -------------------------------------------------------------------
+.navbar {
+  background-color: $primary-color;
+  padding: $baseline*1.5;
+  text-align: left;
+  position: fixed;
+  list-style-type: none;
+  font-size: $font-size--sm;
+}
+
+.navbar li {
+  display: inline;
+  margin-left: $p-mb;
+  margin-right: $p-mb;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.navbar a {
+  color: $white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar li:hover {
+  background-color: $secondary-color;
+  padding: $baseline*2;
+}

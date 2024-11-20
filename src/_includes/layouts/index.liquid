@@ -2,6 +2,15 @@
 
 {% block content %}
 
+<!-- Navigation -->
+<ul class="navbar">
+  <li><a href="#home">{{ homeMenu }}</a></li>
+  <li><a href="#speakers">{{ speakersMenu }}</a></li>
+  <li><a href="#talks">{{ talksMenu }}</a></li>
+  <li><a href="#agenda">{{ agenda }}</a></li>
+  <li><a href="#venue">{{ venue }}</a></li>
+</ul>
+
 <!-- Header -->
 <header class="align--center pt3 pb2">
     <div class="container">
@@ -23,21 +32,111 @@
         <section class="pt2 pb2">                    
           <img class="mb3" src="/img/community.webp" alt="{{ altCommunity }}">
 
-            <div class="grid-row">
-                <div class="grid-column span-one-third mt1">
+            <div class="grid-row justify-center">
+                <div class="grid-column mt1">
                   <img class="icon mb1" src="/img/content.svg" alt="{{ altContent }}">
                     <p>{{ eventContent }}</p>
                 </div>
-                <div class="grid-column span-one-third mt1">
+                <div class="grid-column mt1">
                     <img class="icon mb1" src="/img/workshops.svg" alt="{{ altWorkshops }}">
                     <p>{{ workshops }}</p>
                 </div>
-                <div class="grid-column span-one-third mt1">
+                <div class="grid-column mt1">
                     <img class="icon mb1" src="/img/networking.svg" alt="{{ altNetworking }}">
                     <p>{{ networking }}</p>
                 </div>
             </div>
              
+        </section>
+
+        <!-- Speakers -->
+        {% assign speakersList = settings.speakers %}
+        <section id="speakers" class="pt3 pb3 align--center">
+            <h3 class="mb1">{{ speakers }}</h3>
+            <div class="grid-row justify-center">
+              {% for speaker in speakersList %}
+                <div class="grid-column-center mt2">
+                  <img class="m1" src="{{ speaker.photo }}" width="210px" alt="{{ altSpeaker }}">
+                  <p class="small">{{ speaker.name }}</p>
+                  <ul class="no-bullets list--inline">
+                    {% if speaker.social.website %}
+                      <li class="m1"><a href="{{ speaker.social.website }}" target="_blank" class="link"><img class="icon" src="/img/globe-bw.png" alt="{{ altWebsite }}"></a></li>
+                    {% endif %}
+                    {% if speaker.social.linkedin %}
+                      <li class="m1"><a href="{{ speaker.social.linkedin }}" target="_blank" class="link"><img class="icon" src="/img/linkedin-bw.png" alt="{{ altLinkedIn }}"></a></li>
+                    {% endif %}
+                    {% if speaker.social.youtube %}
+                      <li class="m1"><a href="{{ speaker.social.youtube }}" target="_blank" class="link"><img class="icon" src="/img/youtube-bw.png" alt="{{ altYouTube }}"></a></li>
+                    {% endif %}
+                  </ul>
+                </div>
+              {% endfor %}
+            </div>
+        </section>
+
+        <!-- Talks -->
+        {% assign talksList = settings.talks %}
+        <section id="talks" class="pt3 pb3 align--center">
+            <h3 class="mb1">{{ talks }}</h3>
+            <div class="grid-row">
+              {% for talk in talksList %}
+                <div class="grid-column align--left span-whole mt2">
+                  <p class="bold pb1">{{ talk.title }}</p>
+                  <p class="small pb1">{{ talk.speaker }}</p>
+                  <p class="regular">{{ talk.description }}</p>
+                </div>
+              {% endfor %}
+            </div>
+        </section>
+
+        <!-- Agenda -->
+        {% assign _agenda = settings.agenda %}
+        <section id="agenda" class="pt3 pb3 align--center">
+          <h3 class="mb1">{{ agenda }}</h3>
+          <div class="grid-row">
+            {% for session in _agenda %}
+              <div class="grid-column span-12 mt2">
+                <p class="bold pb1">{{ session.time }}</p>
+                <p class="bold pb1">{{ session.title }}</p>
+                <p class="small pb1">{{ session.speaker }}</p>
+                <p class="small">{{ session.room }}</p>
+              </div>
+            {% endfor %}
+          </div>
+        </section>
+
+        <!-- Venue -->
+        <section id="venue" class="pt3 pb3 align--center">
+          <h3 class="mb2">{{ venue }}</h3>
+          <p class="bold pb1">{{ venueName }}</p>
+          <p class="small pb1">{{ venueRoom1 }}</p>
+          <p class="small pb1">{{ venueRoom2 }}</p>
+          <p class="bold pb1">{{ venueAddress }}</p>
+          <div class="grid-row justify-center">
+              <div class="grid-column">
+                <img class="mb1" src="/img/lehman-entrance.webp" alt="{{ venueName }}">
+              </div>
+              <div class="grid-column">
+                <p class="align--left mb1">{{ venueHistory1 }}</p>
+                <p class="align--left mb1">{{ venueHistory2 }}</p>
+                <p class="align--left mb1">{{ venueHistory3 }}</p>
+              </div>
+          </div>
+          <h3 class="mt2 mb3">{{ gettingHere  }}</h3>
+          <div class="grid-row justify-center">
+              <div class="grid-column">
+                <h4>{{ subway }}</h4>
+                <p class="align--left mb2">{{ venueSubway }}</p>
+                <h4>{{ bus }}</h4>
+                <p class="align--left mb2">{{ venueBus }}</p>
+                <h4>{{ parking }}</h4>
+                <p class="align--left mb2">{{ venueParking }}</p>
+
+              </div>
+              <div class="grid-column">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6033.803983467942!2d-73.894829!3d40.874025!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f39c771c5257%3A0xb29719fa25bef236!2s2920%20Goulden%20Ave%2C%20Bronx%2C%20NY%2010468!5e0!3m2!1sen!2sus!4v1731965005542!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+              </div>
+          </div>
         </section>
 
         <!-- Sponsors -->
@@ -46,7 +145,6 @@
           <img class="m1" src="/img/google.svg" alt="{{ altGoogle }}" style="height: 50px;">
           <img class="m1" src="/img/lehman.svg" alt="{{ altLehman }}" style="height: 45px;">
         </section>
-
 
         <!-- CTA -->
         <section class="align--center pt3 pb3">
@@ -61,10 +159,10 @@
 <!-- Footer -->
 <footer class="mt2 pb3 align--center">
   <ul class="no-bullets list--inline mb0">
-    <li class="m1 block-on-mobile"><a href="{{ gdgUrl }}" class="link"><img class="icon" src="/img/gdg.svg" alt="{{ altGDG }}"> {{ gdg }}</a></li>
-    <li class="m1 block-on-mobile"><a href="{{ meetupUrl }}" class="link"><img class="icon" src="/img/meetup.svg" alt="{{ altMeetup }}"> {{ meetup }}</a></li>
-    <li class="m1 block-on-mobile"><a href="{{ linkedinUrl }}" class="link"><img class="icon" src="/img/linkedin.svg" alt="{{ altLinkedIn }}"> {{ linkedin }}</a></li>
-    <li class="m1 block-on-mobile"><a href="{{ youtubeUrl }}" class="link"><img class="icon" src="/img/youtube.svg" alt="{{ altYouTube }}"> {{ youtube }}</a></li>
+    <li class="m1 block-on-mobile"><a href="{{ gdgUrl }}" class="link"><img class="icon" src="/img/gdg.png" alt="{{ altGDG }}"> {{ gdg }}</a></li>
+    <li class="m1 block-on-mobile"><a href="{{ meetupUrl }}" class="link"><img class="icon" src="/img/meetup.png" alt="{{ altMeetup }}"> {{ meetup }}</a></li>
+    <li class="m1 block-on-mobile"><a href="{{ linkedinUrl }}" class="link"><img class="icon" src="/img/linkedin.png" alt="{{ altLinkedIn }}"> {{ linkedin }}</a></li>
+    <li class="m1 block-on-mobile"><a href="{{ youtubeUrl }}" class="link"><img class="icon" src="/img/youtube.png" alt="{{ altYouTube }}"> {{ youtube }}</a></li>
   </ul>
   <p class="mt1 small text--gray">Design by <a href="https://www.papayatemplates.com" class="link">Papaya</a>.</p>
 </footer>
