@@ -133,11 +133,16 @@
   ],
   "talks": [
     {
-      "title": "Succeed in the age of AI",
-      "description": "The session would be focused on exploring strategies for thriving in the fast-paced AI world, including learning quickly, adapting, asking the right questions while adding an emphasis taking time for breaks, living your life and maintaining good health.",
+      "title": "Adapt and Succeed in the age of AI",
+      "description": "As a Lehman College alumna, I am sharing my story of breaking into the AI and Machine Learning industry. I will be discussing strategies that help with learning and progressing quickly.",
       "speaker": "Albina Krasykova"
     },
     {
+      "title": "Responsible Tech Careers",
+      "description": "During this session, students will learn more about the diverse pathways to careers in Responsible Tech.",
+      "speaker": "Alexandra Feldhausen"
+    },
+     {
       "title": "Gemini: One Year Later",
       "description": "One year ago, on this very stage, we got a first glimpse of Google Gemini and what it could do that no other Large Language Model could. Now, one year later, let's see how far Gemini has come - and what it means for where we, as developers, are going next.",
       "speaker": "Allen Firstenberg"
@@ -146,12 +151,7 @@
       "title": "Flutter for Web: Expanding Beyond Mobile",
       "description": "Explore Flutter’s versatility as we expand beyond mobile to the web. Learn how to build responsive, high-performance web applications using Flutter, with insights into best practices, deployment strategies, and real-world use cases. This session is perfect for developers looking to broaden their Flutter skills into web development.",
       "speaker": "Atuoha Anthony"
-    },
-    {
-      "title": "Beyond Chatbots:  Unlocking Gemini's  Potential through Flutter",
-      "description": "We'll explore how Gemini empowers developers to craft intuitive, conversational interfaces, enabling seamless interactions and effortless communication between users and your app.",
-      "speaker": "Roman Jaquez"
-    },
+    }, 
     {
       "title": "How to Navigate the NYC Tech Job Market",
       "description": "I'll walk through the steps for students how to best navigate their career opportunities as a tech worker in NYC.",
@@ -161,11 +161,6 @@
       "title": "Unlocking the Power of Kotlin for Android Development",
       "description": "This talk will provide an overview of the Kotlin programming language. It presents the full potential of Kotlin for Android development.",
       "speaker": "Christelle Scharff"
-    },
-    {
-      "title": "Responsible Tech Careers",
-      "description": "During this session, students will learn more about the diverse pathways to careers in Responsible Tech.",
-      "speaker": "Alexandra Feldhausen"
     },
     {
       "title": "My XR Playground",
@@ -181,6 +176,11 @@
       "title": "The Future of Android, Kotlin, and Everything",
       "description": "For many mobile products today, native is not the likely choice. Some form of cross-platform is used. Kotlin Multiplatform and Compose Multiplatform removes the barrier between the two paths, and with the community's help, can be the default choice for mobile development.",
       "speaker": "Kevin Galligan"
+    },
+    {
+      "title": "Beyond Chatbots:  Unlocking Gemini's  Potential through Flutter",
+      "description": "We'll explore how Gemini empowers developers to craft intuitive, conversational interfaces, enabling seamless interactions and effortless communication between users and your app.",
+      "speaker": "Roman Jaquez"
     }
   ],
   "agenda": [
