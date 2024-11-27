@@ -31,6 +31,17 @@
       }
     },
     {
+      "name": "Alexandra Feldhausen",
+      "title": "Director of Career Development",
+      "company": "All Tech Is Human",
+      "photo": "/img/speakers/alexandra-feldhausen.jpg",
+      "bio": "Ali Feldhausen is the Director of Career Development at All Tech is Human, where she oversees the ATIH Careers vertical. Before joining ATIH, Ali was the Director of Insights and Engagement at the NYC Mayor’s Office of Talent and Workforce Development’s Tech Talent Pipeline (TTP). While at TTP, she was responsible for overseeing the CUNY 2X Tech Initiative, maintaining partnerships across the tech ecosystem with employers and education providers, and leading the CUNY Computer Science Career Development Council, a consortium of career development specialists from across CUNY.",
+      "social": {
+        "website": "https://alltechishuman.org/",
+        "linkedin": "https://www.linkedin.com/in/alexandra-feldhausen/"
+      }
+    },
+    {
       "name": "Allen Firstenberg",
       "title": "Google Developer Expert",
       "photo": "/img/speakers/allen-firstenberg.jpg",
@@ -49,18 +60,6 @@
       "social": {
         "website": "https://atuoha.github.io",
         "linkedin": "https://linkedin.com/in/atuoha-anthony"
-      }
-    },
-    {
-      "name": "Roman Jaquez",
-      "title": "Google Developer Expert in Flutter",
-      "company": "GDG Lawrence",
-      "photo": "/img/speakers/roman-jaquez.jpg",
-      "bio": "Roman Jaquez is a Google Developer Expert in Flutter as well as a Google Certified Cloud Architect who loves sharing his passion for Flutter with the wider developer community. He is also lead organizer at GDG Lawrence with 10+ years of experience as a software engineer. He enjoys spreading the word about best practices in the industry ranging from mobile, web and cloud.",
-      "social": {
-        "website": "https://romanjustcodes.web.app/#/home",
-        "linkedin": "https://www.linkedin.com/in/roman-jaquez-8941a424/",
-        "youtube": "https://www.youtube.com/@romanjustcodes"
       }
     },
     {
@@ -85,17 +84,6 @@
       }
     },
     {
-      "name": "Alexandra Feldhausen",
-      "title": "Director of Career Development",
-      "company": "All Tech Is Human",
-      "photo": "/img/speakers/alexandra-feldhausen.jpg",
-      "bio": "Ali Feldhausen is the Director of Career Development at All Tech is Human, where she oversees the ATIH Careers vertical. Before joining ATIH, Ali was the Director of Insights and Engagement at the NYC Mayor’s Office of Talent and Workforce Development’s Tech Talent Pipeline (TTP). While at TTP, she was responsible for overseeing the CUNY 2X Tech Initiative, maintaining partnerships across the tech ecosystem with employers and education providers, and leading the CUNY Computer Science Career Development Council, a consortium of career development specialists from across CUNY.",
-      "social": {
-        "website": "https://alltechishuman.org/",
-        "linkedin": "https://www.linkedin.com/in/alexandra-feldhausen/"
-      }
-    },
-    {
       "name": "Hessvacio Hassan",
       "title": "Creative Lead",
       "company": "Made in Brooklyn Games",
@@ -105,6 +93,16 @@
         "website": "https://hessvacio.com/",
         "linkedin": "https://www.linkedin.com/in/hessvacio/",
         "youtube": "https://www.youtube.com/@madeinbrooklyngames"
+      }
+    },
+    {
+      "name": "Isaac Atif",
+      "title": "Developer Advocate",
+      "photo": "/img/speakers/isaac-atif.jpg",
+      "bio": "Isaac Atif is a developer advocate from The Bronx, New York. He teaches Java at Lehman College and Python at Columbia University. In his spare time he likes to see nature, travel, and produce music.",
+      "social": {
+        "website": "https://isaaca.netlify.app",
+        "linkedin": "https://www.linkedin.com/in/isaacmat/"
       }
     },
     {
@@ -128,6 +126,18 @@
         "website": "https://touchlab.co/",
         "linkedin": "https://www.linkedin.com/in/kpgalligan/",
         "youtube": "https://www.youtube.com/@Touchlab"
+      }
+    },
+    {
+      "name": "Roman Jaquez",
+      "title": "Google Developer Expert in Flutter",
+      "company": "GDG Lawrence",
+      "photo": "/img/speakers/roman-jaquez.jpg",
+      "bio": "Roman Jaquez is a Google Developer Expert in Flutter as well as a Google Certified Cloud Architect who loves sharing his passion for Flutter with the wider developer community. He is also lead organizer at GDG Lawrence with 10+ years of experience as a software engineer. He enjoys spreading the word about best practices in the industry ranging from mobile, web and cloud.",
+      "social": {
+        "website": "https://romanjustcodes.web.app/#/home",
+        "linkedin": "https://www.linkedin.com/in/roman-jaquez-8941a424/",
+        "youtube": "https://www.youtube.com/@romanjustcodes"
       }
     }
   ],
@@ -168,6 +178,11 @@
       "speaker": "Hessvacio Hassan"
     },
     {
+      "title": "How to use AI for web development",
+      "description": "Using ChatGPT we will learn how to build simple JavaScript web applications in a fraction of the time. Learn how to write concise prompts that will help you guide ChatGPT in building a password generator, a static web page, and a simple JavaScript game. Within this 30-45 minute workshop, we will build these projects together and walk away knowing how to use ChatGPT as mindful software engineers.",
+      "speaker": "Isaac Atif"
+    },
+    {
       "title": "Designing for all - Accessibility in the modern digital age",
       "description": "This session explores how accessible design supports people with disabilities, the assistive technologies they rely on, and why prioritizing it benefits everyone. Learn why practical strategies like using proper color contrast, the importance of semantic headers, and using alt text for images can create inclusive interfaces that empower all users, fostering social equity in the process. Gain insights into how designing with accessibility in mind meets diverse needs and strengthens user engagement and satisfaction.",
       "speaker": "Joel Guerrero"
@@ -191,7 +206,7 @@
     },
     {
       "time": "1:00 PM - 1:15 PM",
-      "title": "Welcome",
+      "title": "Welcome and Announcements",
       "room": "Downstairs Amphitheatre (GI 024)"
     },
     {
@@ -212,15 +227,27 @@
       "room": "Downstairs Amphitheatre (GI 024)"
     },
     {
+      "time": "1:50 PM - 2:00 PM",
+      "title": "Bits and Pieces",
+      "speaker": "Hendrix Tavarez",
+      "room": "Upstairs Auditorium (GI 226)"
+    },
+    {
+      "time": "2:00 PM - 2:20 PM",
+      "title": "How to Navigate the NYC Tech Job Market",
+      "speaker": "Brendan Collins",
+      "room": "Upstairs Auditorium (GI 226)"
+    },
+    {
       "time": "2:20 PM - 2:50 PM",
       "title": "Flutter for Web: Expanding Beyond Mobile",
       "speaker": "Atuoha Anthony",
       "room": "Downstairs Amphitheatre (GI 024)"
     },
     {
-      "time": "2:30 PM - 2:50 PM",
-      "title": "How to Navigate the NYC Tech Job Market",
-      "speaker": "Brendan Collins",
+      "time": "2:20 PM - 2:50 PM",
+      "title": "How to use AI for web development",
+      "speaker": "Isaac Atif",
       "room": "Upstairs Auditorium (GI 226)"
     },
     {
@@ -240,16 +267,20 @@
       "room": "Upstairs Auditorium (GI 226)"
     },
     {
+      "time": "3:20 PM - 3:40 PM",
+      "title": "Succeed in the age of AI",
+      "speaker": "Albina Krasykova",
+      "room": "Upstairs Auditorium (GI 226)"
+    },
+    {
       "time": "3:20 PM - 3:50 PM",
       "title": "Beyond Chatbots:  Unlocking Gemini's  Potential through Flutter",
       "speaker": "Roman Jaquez",
       "room": "Downstairs Amphitheatre (GI 024)"
     },
     {
-      "time": "3:20 PM - 3:40 PM",
-      "title": "Succeed in the age of AI",
-      "speaker": "Albina Krasykova",
-      "room": "Upstairs Auditorium (GI 226)"
+      "time": "3:50 PM - 4:00 PM",
+      "title": "Break - Doors to 2nd Track Close - Downstairs Amphitheatre (GI 024) continues"
     },
     {
       "time": "4:00 PM - 4:20 PM",
@@ -269,7 +300,7 @@
       "room": "Downstairs Amphitheatre (GI 024)"
     },
     {
-      "time": "6:00 PM",
+      "time": "5:40 PM",
       "title": "Doors Close"
     }
   ],
