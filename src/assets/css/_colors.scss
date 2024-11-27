@@ -28,3 +28,6 @@
 .bg--primary-color         { background-color: $primary-color; }
 .bg--secondary-color       { background-color: $secondary-color; }
 .bg--tertiary-color        { background-color: $tertiary-color; }
+
+.bg--lightest-blue         { background-color: $evablue; }
+.bg--lightest-green            { background-color: lighten($secondary-color, 40%); }

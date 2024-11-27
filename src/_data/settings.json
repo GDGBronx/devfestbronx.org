@@ -202,53 +202,53 @@
     {
       "time": "12:30 PM",
       "title": "Doors Open",
-      "room": "Downstairs Amphitheatre (GI 024)"
+      "room": "GI 024 - Downstairs Amphitheatre"
     },
     {
       "time": "1:00 PM - 1:15 PM",
       "title": "Welcome and Announcements",
-      "room": "Downstairs Amphitheatre (GI 024)"
+      "room": "GI 024 - Downstairs Amphitheatre"
     },
     {
       "time": "1:15 PM - 1:45 PM",
       "title": "Keynote - Gemini: One Year Later",
       "speaker": "Allen Firstenberg",
-      "room": "Downstairs Amphitheatre (GI 024)"
+      "room": "GI 024 - Downstairs Amphitheatre"
     },
     {
       "time": "1:45 PM - 1:50 PM",
       "title": "Doors to 2nd Track Open",
-      "room": "Upstairs Auditorium (GI 226)"
+      "room": "GI 226 - Upstairs Auditorium"
     },
     {
       "time": "1:50 PM - 2:20 PM",
       "title": "Unlocking the Power of Kotlin for Android Development",
       "speaker": "Christelle Scharff",
-      "room": "Downstairs Amphitheatre (GI 024)"
+      "room": "GI 024 - Downstairs Amphitheatre"
     },
     {
       "time": "1:50 PM - 2:00 PM",
       "title": "Bits and Pieces",
       "speaker": "Hendrix Tavarez",
-      "room": "Upstairs Auditorium (GI 226)"
+      "room": "GI 226 - Upstairs Auditorium"
     },
     {
       "time": "2:00 PM - 2:20 PM",
       "title": "How to Navigate the NYC Tech Job Market",
       "speaker": "Brendan Collins",
-      "room": "Upstairs Auditorium (GI 226)"
+      "room": "GI 226 - Upstairs Auditorium"
     },
     {
       "time": "2:20 PM - 2:50 PM",
       "title": "Flutter for Web: Expanding Beyond Mobile",
       "speaker": "Atuoha Anthony",
-      "room": "Downstairs Amphitheatre (GI 024)"
+      "room": "GI 024 - Downstairs Amphitheatre"
     },
     {
       "time": "2:20 PM - 2:50 PM",
       "title": "How to use AI for web development",
       "speaker": "Isaac Atif",
-      "room": "Upstairs Auditorium (GI 226)"
+      "room": "GI 226 - Upstairs Auditorium"
     },
     {
       "time": "2:50 PM - 3:00 PM",
@@ -258,46 +258,46 @@
       "time": "3:00 PM - 3:20 PM",
       "title": "Designing for all - Accessibility in the modern digital age",
       "speaker": "Joel Guerrero",
-      "room": "Downstairs Amphitheatre (GI 024)"
+      "room": "GI 024 - Downstairs Amphitheatre"
     },
     {
       "time": "3:00 PM - 3:20 PM",
       "title": "My XR Playground",
       "speaker": "Hessvacio Hassan",
-      "room": "Upstairs Auditorium (GI 226)"
+      "room": "GI 226 - Upstairs Auditorium"
     },
     {
       "time": "3:20 PM - 3:40 PM",
       "title": "Succeed in the age of AI",
       "speaker": "Albina Krasykova",
-      "room": "Upstairs Auditorium (GI 226)"
+      "room": "GI 226 - Upstairs Auditorium"
     },
     {
       "time": "3:20 PM - 3:50 PM",
       "title": "Beyond Chatbots:  Unlocking Gemini's  Potential through Flutter",
       "speaker": "Roman Jaquez",
-      "room": "Downstairs Amphitheatre (GI 024)"
+      "room": "GI 024 - Downstairs Amphitheatre"
     },
     {
       "time": "3:50 PM - 4:00 PM",
-      "title": "Break - Doors to 2nd Track Close - Downstairs Amphitheatre (GI 024) continues"
+      "title": "Break - Doors to 2nd Track Close - GI 024 - Downstairs Amphitheatre continues"
     },
     {
       "time": "4:00 PM - 4:20 PM",
       "title": "Responsible Tech Careers",
       "speaker": "Alexandra Feldhausen",
-      "room": "Downstairs Amphitheatre (GI 024)"
+      "room": "GI 024 - Downstairs Amphitheatre"
     },
     {
       "time": "4:30 PM - 5:00 PM",
       "title": "The Future of Android, Kotlin, and Everything",
       "speaker": "Kevin Galligan",
-      "room": "Downstairs Amphitheatre (GI 024)"
+      "room": "GI 024 - Downstairs Amphitheatre"
     },
     {
       "time": "5:00 PM - 5:40 PM",
       "title": "Closing Remarks, Raffles",
-      "room": "Downstairs Amphitheatre (GI 024)"
+      "room": "GI 024 - Downstairs Amphitheatre"
     },
     {
       "time": "5:40 PM",
