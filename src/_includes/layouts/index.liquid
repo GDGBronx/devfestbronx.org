@@ -95,12 +95,16 @@
           <h3 class="mb1">{{ agenda }}</h3>
           <div class="grid-row">
             {% for session in _agenda %}
-              <div class="grid-column span-12 mt2">
-                <p class="bold pb1">{{ session.time }}</p>
-                <p class="bold pb1">{{ session.title }}</p>
-                <p class="small pb1">{{ session.speaker }}</p>
-                <p class="small">{{ session.room }}</p>
-              </div>
+              {% if session.room == venueRoom2 %}
+                <div class="grid-column span-12 p1 mt2 bg--lightest-blue">
+              {% else %}
+                <div class="grid-column span-12 p1 mt2 bg--lightest-green">
+              {% endif %}
+                  <p class="bold pb1">{{ session.time }}</p>
+                  <p class="bold pb1">{{ session.title }}</p>
+                  <p class="small pb1">{{ session.speaker }}</p>
+                  <p class="small">{{ session.room }}</p>
+                </div>
             {% endfor %}
           </div>
         </section>
