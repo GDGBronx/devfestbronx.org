@@ -53,16 +53,6 @@
       }
     },
     {
-      "name": "Atuoha Anthony",
-      "title": "Mobile Software Engineer",
-      "photo": "/img/speakers/atuoha-anthony.jpg",
-      "bio": "Mobile Software Engineer specializing in Flutter/Dart, Kotlin (Jetpack Compose), & Swift/SwiftUI, with a comprehensive background in web technologies. Skilled in designing, developing, and deploying software for Android, iOS, Web, and other platforms. Adept at collaborating effectively with cross-functional teams to create high-quality, scalable products.",
-      "social": {
-        "website": "https://atuoha.github.io",
-        "linkedin": "https://linkedin.com/in/atuoha-anthony"
-      }
-    },
-    {
       "name": "Brendan Collins",
       "title": "Executive Director",
       "company": "NYC Tech Talent Pipeline",
@@ -158,11 +148,6 @@
       "speaker": "Allen Firstenberg"
     },
     {
-      "title": "Flutter for Web: Expanding Beyond Mobile",
-      "description": "Explore Flutter’s versatility as we expand beyond mobile to the web. Learn how to build responsive, high-performance web applications using Flutter, with insights into best practices, deployment strategies, and real-world use cases. This session is perfect for developers looking to broaden their Flutter skills into web development.",
-      "speaker": "Atuoha Anthony"
-    }, 
-    {
       "title": "How to Navigate the NYC Tech Job Market",
       "description": "I'll walk through the steps for students how to best navigate their career opportunities as a tech worker in NYC.",
       "speaker": "Brendan Collins"
@@ -233,22 +218,16 @@
       "room": "GI 226 - Upstairs Auditorium"
     },
     {
-      "time": "2:00 PM - 2:20 PM",
-      "title": "How to Navigate the NYC Tech Job Market",
-      "speaker": "Brendan Collins",
-      "room": "GI 226 - Upstairs Auditorium"
-    },
-    {
-      "time": "2:20 PM - 2:50 PM",
-      "title": "Flutter for Web: Expanding Beyond Mobile",
-      "speaker": "Atuoha Anthony",
-      "room": "GI 024 - Downstairs Amphitheatre"
-    },
-    {
-      "time": "2:20 PM - 2:50 PM",
+      "time": "2:00 PM - 2:30 PM",
       "title": "How to use AI for web development",
       "speaker": "Isaac Atif",
       "room": "GI 226 - Upstairs Auditorium"
+    },
+    {
+      "time": "2:30 PM - 2:50 PM",
+      "title": "How to Navigate the NYC Tech Job Market",
+      "speaker": "Brendan Collins",
+      "room": "GI 024 - Downstairs Amphitheatre"
     },
     {
       "time": "2:50 PM - 3:00 PM",
